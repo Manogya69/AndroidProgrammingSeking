@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DateTime</string>
+    <string name="nepal_time_btn">Time in Nepal</string>
+    <string name="india_time_btn">Time in India</string>
+    <string name="title">Kati Bajyo??</string>
+</resources>
