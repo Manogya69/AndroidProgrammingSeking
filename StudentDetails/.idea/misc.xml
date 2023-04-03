@@ -3,8 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/activity_main.xml" value="0.2884963768115942" />
-        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/login.xml" value="0.29891304347826086" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.29" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/drawable/ic_launcher_background.xml" value="0.29" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/activity_dashboard.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/content_dashboard.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/content_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/fragment_first.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/login.xml" value="0.22" />
+        <entry key="..\:/Users/manog/AndroidStudioProjects/StudentDetails/app/src/main/res/layout/signup.xml" value="0.136" />
       </map>
     </option>
   </component>
