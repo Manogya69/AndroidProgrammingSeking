@@ -8,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -25,16 +26,17 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
-        setContentView(R.layout.login);
+        setContentView(R.layout.activity_main);
+
+        //bringing the data entered in the Input Field.
+        Intent intent = getIntent();
+        String userName = intent.getStringExtra("LOGIN_USERNAME");
+
+        Toast.makeText(getApplicationContext(), "Username Is " + userName, Toast.LENGTH_SHORT).show();
+
 
 
     };
 
-    public void LoginBtnClick(View view){
-        Intent intent = new Intent(
-                this   ,
-                DashboardActivity.class
-        );
-        startActivity(intent);
-    }
+
 }
