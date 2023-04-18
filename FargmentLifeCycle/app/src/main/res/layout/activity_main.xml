@@ -46,7 +46,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_section"
-        android:name="com.example.fargmentlifecycle.BlueFragment"
+        android:name="com.example.fargmentlifecycle.MainFragment"
         android:layout_width="match_parent"
         android:layout_height="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,7 +54,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout="@layout/blue_fragment" />
+        tools:layout="@layout/main_fragment" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
