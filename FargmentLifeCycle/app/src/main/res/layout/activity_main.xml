@@ -23,12 +23,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="blue"
+        android:onClick="BlueButtonClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.76"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/pink"
@@ -37,12 +39,14 @@
         android:layout_marginTop="180dp"
         android:backgroundTint="#D607E4"
         android:text="Pink"
+        android:onClick="PinkButtonClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.913"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.55" />
+        app:layout_constraintVertical_bias="0.55"
+        tools:ignore="OnClick" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_section"
