@@ -1,2 +1,4 @@
-package com.example.fargmentlifecycle;public class MainFragment {
+package com.example.fargmentlifecycle;
+
+public class MainFragment {
 }
